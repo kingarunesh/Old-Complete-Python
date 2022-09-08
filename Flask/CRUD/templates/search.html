@@ -1,0 +1,25 @@
+{% extends "base.html" %} {% block title %} Search Profile {% endblock %} {%
+block content %}
+
+<h1>Result:</h1>
+
+<form action="{{ url_for('search') }}" method="POST">
+  <input
+    type="search"
+    class="form-control"
+    placeholder="Type to search..."
+    name="search"
+  />
+
+  <button type="submit" class="btn btn-primary mt-2">Search</button>
+</form>
+
+<div class="card mt-5">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"><b>NAME: </b>{{ student.name }}</li>
+    <li class="list-group-item"><b>EMAIL: </b>{{ student.email }}</li>
+    <li class="list-group-item"><b>PHONE: </b>{{ student.phone }}</li>
+  </ul>
+</div>
+
+{% endblock %}
