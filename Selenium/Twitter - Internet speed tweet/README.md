@@ -6,6 +6,15 @@ After getting download and upload speed it will again check if internet provider
 
 <hr>
 
+## Tools
+
+<ul>
+    <li><strong>Python : </strong> Python language</li>
+    <li><strong>Selenium : </strong> Selenium automates browsers. That's it! ... What you do with that power is entirely up to you. Primarily it is for automating web applications for testing.</li>
+</ul>
+
+<hr>
+
 GitHub Link -> <a href="https://github.com/kingarunesh/100-Days-of-Code-Python/tree/master/51%20-%20Day">Click Me</a>
 
 YouTube Link -> <a href="https://youtu.be/1WONvpaQZKY">Click ME</a>
